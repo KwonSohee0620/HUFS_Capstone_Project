@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Trend">
         <activity
+            android:name=".Login2"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
             android:name=".SmallBusiness"
             android:exported="false" />
         <activity
