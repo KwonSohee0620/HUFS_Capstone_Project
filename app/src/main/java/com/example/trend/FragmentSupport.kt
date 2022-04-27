@@ -5,19 +5,7 @@ import android.net.Uri
 import android.view.View
 import androidx.fragment.app.Fragment
 
-class FragmentSupport : Fragment(R.layout.support), View.OnClickListener {
-    /*override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        val view: View = inflater!!.inflate(R.layout.fragment_support, container, false)
-        view.first.setOnClickListener {
-            Log.d("console", "Button pressed")
-        }
-        return inflater.inflate(R.layout.fragment_support, container, false)
-    }*/
-
+class FragmentSupport : Fragment(R.layout.support),View.OnClickListener {
     override fun onClick(v: View?) {
         when (v?.id) {
             R.id.first -> {
