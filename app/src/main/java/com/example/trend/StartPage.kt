@@ -14,7 +14,7 @@ class StartPage : AppCompatActivity() {
             startActivity(intent)
         }
 
-        already.setOnClickListener(){
+        already_.setOnClickListener(){
             val intent = Intent(this,Login::class.java)
             startActivity(intent)
         }
