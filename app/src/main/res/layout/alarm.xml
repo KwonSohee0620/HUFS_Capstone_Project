@@ -8,8 +8,55 @@
         android:id="@+id/homeText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="알림"
+        android:background="@color/butter"
+        android:text="Notice"
         android:textSize="30dp">
     </TextView>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edge_butter"
+        android:gravity="center"
+        android:layout_marginTop="34dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/test_alarm"
+            android:text="내 매장 트렌드 분석 점수 알아보기"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textSize="20dp">
+        </TextView>
+
+        <Button
+            android:id="@+id/test_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:background="@drawable/join_button"
+            android:layout_marginTop="10dp">
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="595dp"
+        android:background="@drawable/edge_butter"
+        android:layout_marginTop="136dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/advice_1"
+            android:text="알림"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp">
+        </TextView>
+
+    </LinearLayout>
 </FrameLayout>

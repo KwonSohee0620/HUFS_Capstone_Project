@@ -14,6 +14,27 @@
         android:theme="@style/Theme.Trend"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".TrendTest7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TrendTest6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TrendTest5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TrendTest4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TrendTest3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TrendTest2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TrendTest1Activity"
+            android:exported="false" />
+        <activity
             android:name=".StartPage"
             android:exported="true">
             <intent-filter>
@@ -34,7 +55,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
-
     </application>
 
 </manifest>

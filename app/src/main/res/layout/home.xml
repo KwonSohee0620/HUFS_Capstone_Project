@@ -7,11 +7,14 @@
 
     <TextView
         android:id="@+id/homeText"
-        android:layout_width="380dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="홈"
-        android:textSize="30dp"></TextView>
+        android:text="Trend Analysis"
+        android:background="@color/butter"
+        android:textSize="30dp">
+
+    </TextView>
 
     <LinearLayout
         android:layout_width="380dp"

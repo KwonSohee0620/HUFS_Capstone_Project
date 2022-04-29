@@ -9,6 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="마이페이지"
+        android:background="@color/butter"
         android:textSize="30dp">
     </TextView>
 

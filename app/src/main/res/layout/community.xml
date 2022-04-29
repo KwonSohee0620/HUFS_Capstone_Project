@@ -8,7 +8,17 @@
         android:id="@+id/homeText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="커뮤니티"
+        android:text="Community"
+        android:background="@color/butter"
+        android:textSize="30dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="추후 오픈 예정"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
         android:textSize="30dp">
     </TextView>
 
