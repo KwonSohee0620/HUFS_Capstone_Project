@@ -32,5 +32,4 @@
         android:background="@drawable/join_button"
         android:layout_marginTop="10dp">
     </Button>
-
 </FrameLayout>

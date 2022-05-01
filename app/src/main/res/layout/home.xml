@@ -24,7 +24,6 @@
         android:background="@drawable/edge_butter"
         android:layout_marginTop="10dp"></LinearLayout>
 
-
     <ProgressBar
         android:id="@+id/paginationProgressBar"
         style="?attr/progressBarStyle"
