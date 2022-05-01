@@ -7,17 +7,19 @@
     android:orientation="vertical"
     tools:context=".SmallBusiness">
     <TextView
+        android:id="@+id/supportText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="교육/지원 화면"
-        android:background="@color/butter"
-        android:textSize="30dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@drawable/edge_bottom_lightgrey"
+        android:text="교육/지원"
+        android:textSize="25dp"
         ></TextView>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:orientation="vertical"
         android:layout_gravity="center"
         android:gravity="center">

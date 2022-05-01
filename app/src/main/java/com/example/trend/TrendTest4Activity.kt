@@ -17,6 +17,7 @@ class TrendTest4Activity : AppCompatActivity() {
         }
 
         no.setOnClickListener(){
+            Result.setresult3(0)
             no.setBackgroundColor(Color.parseColor("#FFF1DD95"))
             startActivity(Intent(this, TrendTest6Activity::class.java))
         }

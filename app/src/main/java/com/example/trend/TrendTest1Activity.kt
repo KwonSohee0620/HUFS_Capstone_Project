@@ -11,6 +11,9 @@ class TrendTest1Activity : AppCompatActivity() {
         setContentView(R.layout.trend_test_1)
 
         next_1.setOnClickListener(){
+            Result.setperiod(edit_year.text.toString())
+            var month: String = edit_month.text.toString()
+            var day: String = edit_day.text.toString()
             startActivity(Intent(this, TrendTest2Activity::class.java))
         }
     }

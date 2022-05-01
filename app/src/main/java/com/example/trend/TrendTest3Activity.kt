@@ -12,16 +12,19 @@ class TrendTest3Activity : AppCompatActivity() {
         setContentView(R.layout.trend_test_3)
 
         increase.setOnClickListener(){
+            Result.setresult2(20)
             increase.setBackgroundColor(Color.parseColor("#FFF1DD95"))
             startActivity(Intent(this, TrendTest4Activity::class.java))
         }
 
         decrease.setOnClickListener(){
+            Result.setresult2(0)
             decrease.setBackgroundColor(Color.parseColor("#FFF1DD95"))
             startActivity(Intent(this, TrendTest4Activity::class.java))
         }
 
         nochange.setOnClickListener(){
+            Result.setresult2(30)
             nochange.setBackgroundColor(Color.parseColor("#FFF1DD95"))
             startActivity(Intent(this, TrendTest4Activity::class.java))
         }

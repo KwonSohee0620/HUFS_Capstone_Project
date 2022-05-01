@@ -11,6 +11,8 @@ class TrendTest6Activity : AppCompatActivity() {
         setContentView(R.layout.trend_test_6)
 
         next_5.setOnClickListener(){
+            val review : String = edit_review.text.toString()
+            Result.setresult4(review.toFloat() * 4)
             startActivity(Intent(this, TrendTest7Activity::class.java))
         }
     }

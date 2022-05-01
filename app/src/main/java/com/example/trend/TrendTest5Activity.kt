@@ -12,21 +12,25 @@ class TrendTest5Activity : AppCompatActivity() {
         setContentView(R.layout.trend_test_5)
 
         sns_one.setOnClickListener(){
+            Result.setresult3(5)
             sns_one.setBackgroundColor(Color.parseColor("#FFF1DD95"))
             startActivity(Intent(this, TrendTest6Activity::class.java))
         }
 
         sns_two.setOnClickListener(){
+            Result.setresult3(10)
             sns_two.setBackgroundColor(Color.parseColor("#FFF1DD95"))
             startActivity(Intent(this, TrendTest6Activity::class.java))
         }
 
         sns_three.setOnClickListener(){
+            Result.setresult3(15)
             sns_three.setBackgroundColor(Color.parseColor("#FFF1DD95"))
             startActivity(Intent(this, TrendTest6Activity::class.java))
         }
 
         sns_four.setOnClickListener(){
+            Result.setresult3(20)
             sns_four.setBackgroundColor(Color.parseColor("#FFF1DD95"))
             startActivity(Intent(this, TrendTest6Activity::class.java))
         }
